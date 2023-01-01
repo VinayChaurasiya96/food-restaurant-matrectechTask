@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from "react";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+// import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import {useNavigate} from "react-router-dom";
 
 import CartContext from './cartContext';
 import { useContext } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Header = () => {
    
    const isLoggedIn = JSON.parse(localStorage.getItem("userLoginData"))
@@ -75,7 +76,7 @@ const Header = () => {
              <>
              <button onClick={logout}>Logout</button>
              <span className="cartIcon" onClick={showCartItems}>
-               <ShoppingCartIcon />
+             <i className="fa-solid fa-cart-shopping"></i>
              </span>
              <span className="item-counts"  onClick={showCartItems}>{cartQuantity()}</span>
              </>

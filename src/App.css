@@ -154,8 +154,9 @@ button{
 }
 .card-buttons .minus {
   padding: 3px 20px;
- background-color: #E0E0E0;
-  color: black;
+ background-color:#F50057;
+  color: white;
+  font-weight: bold;
   border: none;
   font-size: 15px;
   border-radius: 3px;
@@ -300,4 +301,12 @@ button.minus.color-danger {
 .checkout-block {
   text-align: right;
   margin-top: 35px;
+}
+span.cartIcon {
+  font-size: 30px;
+  margin-left: 20px;
+}
+button.minus:disabled {
+  background-color: #E0E0E0;
+  color: #a37c7c;
 }
