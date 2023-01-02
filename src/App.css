@@ -366,3 +366,29 @@ button.plus.food-items {
   padding: 0px 20px;
   font-size: 22px;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  
+  .items-center {
+    display: block;
+    width: auto;
+}
+.product-card {
+  margin-bottom: 35px;
+  width: 280px;
+}
+.cartItems {
+  width: 85%;
+}
+.checkout-main div {
+  width: 90%;
+}
+
+.product-card img {
+  height: 169px;
+}
+
+
+  
+}
