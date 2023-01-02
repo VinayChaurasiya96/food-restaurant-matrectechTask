@@ -41,7 +41,7 @@ function FoodItems() {
                   {/* <img src="/assets/burger.jpeg" /> */}
                   <img src={`/assets/${products.image}`} />
                   <div>
-                    <p>{products.name}</p>
+                    <p  className="pr-name">{products.name}</p>
                     <p>Price:{products.price}</p>
                     {
                       isAddedToCart(products)?
