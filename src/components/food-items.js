@@ -52,12 +52,12 @@ function FoodItems() {
                       :''
                     }
                   
-                    <div className="card-buttons margi-bottom">
-                      <button onClick={()=>addProductToCart(products)} className="plus">+</button>
+                    <div className="card-buttons margi-bottom food-items">
+                      <button onClick={()=>addProductToCart(products)} className="plus food-items">+</button>
                       {
                         isAddedToCart(products)
-                         ?  <button onClick={()=>removeProductToCart(products)} className="minus"  >-</button>
-                        :  <button  className="minus" disabled >-</button>
+                         ?  <button onClick={()=>removeProductToCart(products)} className="minus food-items"  >-</button>
+                        :  <button  className="minus food-items" disabled >-</button>
 
                       }
                      

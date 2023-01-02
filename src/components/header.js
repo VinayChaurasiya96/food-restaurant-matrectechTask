@@ -99,16 +99,16 @@ const Header = () => {
                         <p>{product.name}:</p>
                         <p>{product.quantity}</p>
                         
-                        <div className="card-buttons">
+                        <div className="card-buttons checkout">
                           <button
                               onClick={() => addProductToCart(product)}
-                              className="plus"
+                              className="plus checkout"
                             >
                               +
                             </button>
                             <button
                               onClick={() => removeProductToCart(product)}
-                              className="minus  color-danger"
+                              className="minus  color-danger checkout"
                             >
                               -
                             </button>
@@ -125,7 +125,7 @@ const Header = () => {
                   <p>Total(INR): {findTotalPrice()} </p>
                 </div>
               <div className="checkout-block ">
-                <button onClick={gotToCheckout}>Save and checkout</button>
+                <button onClick={gotToCheckout}>SAVE AND CHECKOUT</button>
                 <a onClick={hideCartItem} href="#">Cancel</a>
               </div>
             </ul>
