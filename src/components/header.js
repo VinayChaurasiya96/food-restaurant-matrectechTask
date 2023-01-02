@@ -126,7 +126,7 @@ const Header = () => {
                 </div>
               <div className="checkout-block ">
                 <button onClick={gotToCheckout}>Save and checkout</button>
-                <button onClick={hideCartItem}>Cancle</button>
+                <a onClick={hideCartItem} href="#">Cancel</a>
               </div>
             </ul>
           </div>

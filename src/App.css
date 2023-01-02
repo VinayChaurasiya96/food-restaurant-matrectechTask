@@ -310,3 +310,35 @@ button.minus:disabled {
   background-color: #E0E0E0;
   color: #a37c7c;
 }
+.right-content button {
+  position: absolute;
+  right: 161px;
+  top: 23px;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.checkout-block button {
+  background-color: #3F51B5;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+.checkout-block a {
+  text-decoration: none;
+    color: #3F51B5;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.product-card img {
+  width: 100%;
+  height: 126px;
+}
+.right-content button {
+  display: none;
+}
