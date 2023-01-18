@@ -1,10 +1,10 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 // import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import {useNavigate} from "react-router-dom";
-
+import { BiLogOutCircle } from "react-icons/bi";
 import CartContext from './cartContext';
 import { useContext } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Header = () => {
    
    const isLoggedIn = JSON.parse(localStorage.getItem("userLoginData"))
@@ -74,7 +74,7 @@ const Header = () => {
            {
             isLoggedIn ?
              <>
-             <button onClick={logout}>Logout</button>
+             <button onClick={logout}><BiLogOutCircle/></button>
              <span className="cartIcon" onClick={showCartItems}>
              <i className="fa-solid fa-cart-shopping"></i>
              </span>

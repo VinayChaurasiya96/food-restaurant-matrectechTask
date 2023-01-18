@@ -102,11 +102,11 @@
   cursor: pointer;
 }
 .go-to-menu-main p {
-  font-size: 45px;
-  width: 432px;
-  margin: 0;
+  font-size: 44px;
+  width: 90%;
   padding: 0;
   color: #454545;
+  margin: 0 20px;
 }
 .go-to-menu-main button {
   background-color: #3F51B5;
@@ -348,7 +348,15 @@ button.minus:disabled {
   height: 126px;
 }
 .right-content button {
-  display: none;
+  position: absolute;
+  right: 98px;
+  top: 10px;
+  border: none;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 40px;
+  background: none;
+  color: white;
 }
 .cartItems ul {
   padding: 0;
@@ -370,11 +378,6 @@ button.plus.food-items {
 p.pr-name {
   margin-bottom: 12px;
 }
-
-
-
-
-
 
 
 
@@ -407,6 +410,14 @@ p.pr-name {
   height: 169px;
 }
 
-
+.input-block label {
+  display: block;
+  width: 100%;
+}
+.input-block {
+  display: block;
+ 
+}
   
 }
+

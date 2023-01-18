@@ -14,7 +14,7 @@ function Welcome() {
     }
   })
   const gotToMenuPage = ()=>{
-    navigate('/fooditems')
+    navigate('/menu')
   }
   return (
     <div className='menu-container'>
